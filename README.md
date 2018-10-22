@@ -1,4 +1,4 @@
-# Scrape and Mine NIH Research Abstracts and Determine Research Similarities
+# Scrape, Clean, and Mine NIH Research Abstracts and Determine Research Similarities
 by Matt Stetz 2018
 
 ## Introduction
