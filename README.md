@@ -1,4 +1,4 @@
-# Mining NIH Research Abstracts and Determining Research Similarities
+# Scrape and Mine NIH Research Abstracts and Determine Research Similarities
 by Matt Stetz 2018
 
 ## Introduction
