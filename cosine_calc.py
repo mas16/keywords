@@ -2,8 +2,8 @@
 Calculate cosine similarity for bag of words.
 Words are ranked by raw TF.
 TFs from abstracts scraped from NCBI using sum_word_freq.py.
-N
-ote: the vector space is re-defined for each pairwise comparison.
+
+Note: the vector space is re-defined for each pairwise comparison.
 
 By MAS 05/2018.
 
