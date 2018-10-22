@@ -1,0 +1,11 @@
+MYONG S
+dna       102
+rna        65
+binding    35
+activity   31
+protein    25
+gq         25
+single     25
+srs2       24
+rad51      21
+molecule   20

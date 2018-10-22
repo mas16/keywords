@@ -1,0 +1,10 @@
+FLEMING KG
+proteins       143
+membrane       117
+folding         82
+transmembrane   68
+domain          38
+free            37
+energy          36
+outer           36
+interactions    34

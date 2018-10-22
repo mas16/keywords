@@ -1,0 +1,9 @@
+CHIRIKJIAN G
+method          54
+models          41
+groups          39
+space           30
+conformations   24
+images          22
+analysis        18
+structure       18

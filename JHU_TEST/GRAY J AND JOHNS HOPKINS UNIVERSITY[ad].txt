@@ -1,0 +1,8 @@
+GRAY J AND JOHNS HOPKINS UNIVERSITY[ad]
+text]       129
+structures  119
+proteins    116
+[formula:    94
+models       91
+docking      74
+binding      42

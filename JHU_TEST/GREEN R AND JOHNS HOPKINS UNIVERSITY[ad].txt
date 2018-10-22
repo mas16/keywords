@@ -1,0 +1,10 @@
+GREEN R AND JOHNS HOPKINS UNIVERSITY[ad]
+ribosomes    142
+release       54
+trna          50
+translation   48
+protein       34
+ribosomal     32
+peptide       30
+selection     27
+elongation    27

@@ -1,0 +1,11 @@
+ROKITA S
+dna          88
+quinone      31
+complex      30
+oxidation    30
+methide      30
+reaction     29
+guanine      25
+target       23
+alkylation   23
+enzyme       22

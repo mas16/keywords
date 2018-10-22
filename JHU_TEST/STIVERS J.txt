@@ -1,0 +1,10 @@
+STIVERS J
+dna        451
+uracil     144
+binding    132
+sites      132
+base       118
+enzyme     101
+cleavage    57
+substrate   53
+udg         50

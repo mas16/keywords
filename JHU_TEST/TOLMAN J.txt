@@ -1,0 +1,11 @@
+TOLMAN J
+ubiquitin        20
+thrips           19
+dipolar          19
+alignment        19
+novaluron        17
+lung             17
+concentrations   17
+couplings        17
+protein          16
+residual         15

@@ -1,0 +1,11 @@
+KAVRAN J
+hh           18
+proteins     15
+cell         15
+domains      15
+ph           14
+structures   13
+mammalian    11
+egfr          9
+activity      9
+sahh          8

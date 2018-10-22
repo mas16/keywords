@@ -1,0 +1,10 @@
+WOLBERGER C
+dna        118
+proteins   102
+ubiquitin   59
+binding     53
+structure   46
+complex     42
+domain      39
+histone     39
+e2          36

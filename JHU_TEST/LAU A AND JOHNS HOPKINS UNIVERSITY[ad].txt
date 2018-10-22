@@ -1,0 +1,11 @@
+LAU A AND JOHNS HOPKINS UNIVERSITY[ad]
+binding       26
+glutamate     21
+receptors     11
+tau           10
+lbd           10
+ligand         7
+activation     5
+conversion     5
+glycine        5
+full-length    4

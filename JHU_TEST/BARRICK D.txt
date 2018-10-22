@@ -1,0 +1,9 @@
+BARRICK D
+repeats    190
+proteins   132
+folding    110
+ankyrin     89
+unfolding   81
+domain      66
+notch       65
+stability   53

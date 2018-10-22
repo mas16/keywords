@@ -1,0 +1,11 @@
+PRIGGE S
+parasite     41
+falciparum   35
+apicoplast   34
+compounds    34
+inhibitors   34
+pfmrk        30
+acid         28
+enr          28
+lipoate      28
+gondii       27

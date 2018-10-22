@@ -1,0 +1,11 @@
+WOODSON S AND JOHNS HOPKINS UNIVERSITY[ad]
+rna           174
+hfq           127
+folding        84
+assembly       56
+binding        55
+structure      50
+ribozyme       48
+interactions   41
+rpos           38
+native         38

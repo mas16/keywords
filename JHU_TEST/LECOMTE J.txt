@@ -1,0 +1,11 @@
+LECOMTE J
+heme       181
+protein    123
+patients    86
+cells       83
+activity    78
+acid        74
+rats        70
+group       66
+structure   63
+after       60

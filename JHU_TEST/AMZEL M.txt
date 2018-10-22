@@ -1,0 +1,10 @@
+AMZEL M
+peptides      26
+structure     14
+side           8
+antibodies     8
+cells          8
+11438          8
+mutant         8
+peg-colbp      7
+habp2-8-arm    7

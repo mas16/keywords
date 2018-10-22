@@ -1,0 +1,10 @@
+GREENBERG M AND JOHNS HOPKINS UNIVERSITY[ad]
+dna         349
+lesions     224
+abasic      114
+radical      91
+pol          81
+strand       79
+repair       72
+containing   63
+sites        55

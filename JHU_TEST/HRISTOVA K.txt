@@ -1,0 +1,10 @@
+HRISTOVA K
+membrane      150
+bilayers      112
+receptor       79
+dimerization   76
+tm             74
+peptides       73
+fgfr3          68
+domain         64
+lipid          58

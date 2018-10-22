@@ -1,0 +1,10 @@
+GARCIA-MORENO B
+proteins    92
+pk(a)       50
+internal    43
+ionizable   33
+groups      30
+state       29
+stability   29
+water       28
+residues    24

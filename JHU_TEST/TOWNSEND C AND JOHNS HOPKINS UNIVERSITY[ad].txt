@@ -1,0 +1,11 @@
+TOWNSEND C AND JOHNS HOPKINS UNIVERSITY[ad]
+acid          118
+nocardicin     51
+biosynthesis   49
+gene           43
+enzyme         42
+fas            39
+polyketide     39
+beta-lactam    35
+synthesis      35
+fatty          34

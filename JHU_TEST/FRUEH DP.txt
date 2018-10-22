@@ -1,0 +1,9 @@
+FRUEH DP
+proteins      61
+experiments   57
+nmr           32
+spectra       29
+assignment    17
+relaxation    15
+3d            15
+covariance    14
