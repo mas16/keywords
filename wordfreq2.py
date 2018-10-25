@@ -36,13 +36,13 @@ import numpy as np
 Entrez.email = 'mstetz@pennmedicine.upenn.edu'
 
 #Datapath to .txt file with list of author names
-INPATH = '/Users/matthewstetz/Desktop/JHU_TEST/authors_ha.txt'
+INPATH = '/Users/matthewstetz/Desktop/datascience/JHU_TEST/authorsbarrick.txt'
 
 #Datapath to .txt file with list of trivial words to exclude
-TRPATH = '/Users/matthewstetz/Desktop/JHU_TEST/trivial.txt'
+TRPATH = '/Users/matthewstetz/Desktop/datascience/JHU_TEST/trivial.txt'
 
 #Datapath to output directory
-OUTPATH = '/Users/matthewstetz/Desktop/JHU_TEST/'
+OUTPATH = '/Users/matthewstetz/Desktop/datascience/JHU_TEST/'
 
 #Optional: University Affiliation (may be necessary for common names)
 AFFILIATION = ''
@@ -80,6 +80,7 @@ def get_abstract(paper):
             abstract = (ab.text).split()[:]
         except:
             print ('No abstract found for record!')
+            raise
     return abstract
 
 def no_caps(text):
@@ -181,17 +182,12 @@ def no_httperror(x, papers, trivial, freq, master):
     try:
         abstract = run(papers[x], trivial, freq)
         update = summ(master, abstract)
-        master = update
+        master = update[:]
     except URLError:
         print ('Bad Internet Connection: Retrying')
-        abstract = run(papers[x], trivial, freq)
-        update = summ(master, abstract)
-        master = update
+        master = no_httperror(x, papers, trivial, freq, master)[:]
     except HTTPError:
-        print ('Bad Internet Connection: Retrying')
-        abstract = run(papers[x], trivial, freq)
-        update = summ(master, abstract)
-        master = update
+        master = no_httperror(x, papers, trivial, freq, master)[:]
     return master
 
 def cull(master, amount):
@@ -252,16 +248,7 @@ def mine(papers, trivial, freq, number):
             """Make sure the script can continue to run if
             connection gets interupted.
             """
-            try:
-                abstract = run(papers[x], trivial, freq)
-                update = summ(master, abstract)
-                master = update[:]
-            except URLError:
-                print ('Bad Internet Connection: Retrying')
-                master = no_httperror(x, papers, trivial, freq, master)[:]
-            except HTTPError:
-                print ('Bad Internet Connection: Retrying')
-                master = no_httperror(x, papers, trivial, freq, master)[:]
+            master = no_httperror(x, papers, trivial, freq, master)[:]
             if x%10 == 0:
                 print ('...')
     master = clean_master(master, number)[:]
@@ -316,7 +303,7 @@ def main(inpath, trpath, outpath, freq, recnum, wordnum, affiliation):
             print (search_name)
         else:
             search_name = name
-
+            
         try:
             papers = query(search_name, recnum)
         except URLError:
