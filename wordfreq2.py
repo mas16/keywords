@@ -187,6 +187,7 @@ def no_httperror(x, papers, trivial, freq, master):
         print ('Bad Internet Connection: Retrying')
         master = no_httperror(x, papers, trivial, freq, master)[:]
     except HTTPError:
+        print ('HTTP Error: Retrying') 
         master = no_httperror(x, papers, trivial, freq, master)[:]
     return master
 
