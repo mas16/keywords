@@ -21,12 +21,12 @@ You need the following libraries:
 ## Execution
 The key input from the user is a .txt file that lists the names of the researchers you wish to analyze in NCBI format. This should look like:
 
-> ###### Smith J
-> ###### Nguyen C
-> ###### Lee JY
-> ###### Jones MM
-> ###### ...
-> ###### Chen Z
+> ###### <p> Smith J </p>
+> ###### <p> Nguyen C </p>
+> ###### <p> Lee JY </p>
+> ###### <p> Jones MM </p>
+> ###### <p> ... </p>
+> ###### <p> Chen Z </p>
 
 You can also include additional NCBI search terms, for example:
 
