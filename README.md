@@ -30,7 +30,7 @@ The key input from the user is a .txt file that lists the names of the researche
 
 You can also include additional NCBI search terms, for example:
 
-###### Stetz MA AND University of Pennsylvania[ad]
+> ###### <p> Stetz MA AND University of Pennsylvania[ad] </p>
 
 There is also a list of trivial words that must be included 'trivial.txt' This file is similar to the english "stop words" used in sci-kit learn. I wrote all of the cleaning/munging functions myself for determining TFs so I included my own list of words to exclude.
 
